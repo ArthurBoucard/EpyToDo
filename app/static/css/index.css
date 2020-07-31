@@ -1,0 +1,50 @@
+html, body {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    margin-left: -8px;
+}
+
+.sign-up-button {
+    margin-left: 5px;
+}
+
+.log-in-button {
+    background-color: red;
+    border: 1px;
+}
+
+.log-in-button:hover {
+    background-color: green;
+}
+
+.body-page {
+    position: relative;
+    height: 90%;
+    width: auto;
+    background-color: indigo;
+    margin-top: 56px;
+    color: white;
+}
+
+.todo-list {
+    margin-top: 300px;
+    margin-left: 40%;
+}
+
+.page-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}

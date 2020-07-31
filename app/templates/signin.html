@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">EpyTodo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>t
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li>
+                  <a class="nav-link" href="/account">My Account</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="/signin">Signing in <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="navbar-nav mr-auto">
+                <a class="navbar-brand">{{ user }}</a>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!--End navbar-->
+    <div class="body-page">
+        <div class="todo-list">
+            <h1>Signing in</h1>
+        </div>
+        <form method="post">
+          <label for="username">Username</label>
+          <input name="username" id="username" required>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
+          <input type = "submit" value="Sign in">
+        </form>
+    </div>
+
+</body>
+</html>
