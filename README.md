@@ -1,2 +1,3 @@
 # EpyToDo
-Basic website interface in python with flask
+Epitech project
+Basic website interface in python with flask, using MySQL and an MVC architecture
